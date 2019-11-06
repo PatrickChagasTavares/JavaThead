@@ -15,7 +15,6 @@ import java.util.Random;
 public class With_Thread {
 
     static double v[] = new double[60000000];
-    static double cont;
 
     public static void main(String[] args) {
         long dateInicio = new Date().getTime();
@@ -61,7 +60,7 @@ public class With_Thread {
     private static Runnable multiVetor3 = new Runnable() {
         @Override
         public void run() {
-            for (int i = 40000000; i < 0000000; i++) {
+            for (int i = 40000000; i < 60000000; i++) {
                 v[i] = v[i] * Math.PI;
             }
         }
