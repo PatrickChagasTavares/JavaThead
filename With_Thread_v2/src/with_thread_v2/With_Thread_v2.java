@@ -84,10 +84,10 @@ public class With_Thread_v2 {
     private static Runnable multiVetor3 = new Runnable() {
         @Override
         public void run() {
-            for (int i = 40000000; i < 60000000; i++) {
-                v[i] = v[i] * Math.PI;
-            }
-            System.out.println("final");
+            // for (int i = 40000000; i < 60000000; i++) {
+            //     v[i] = v[i] * Math.PI;
+            // }
+            // System.out.println("final");
         }
 
     };
